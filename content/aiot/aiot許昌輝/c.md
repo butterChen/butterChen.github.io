@@ -713,6 +713,16 @@ void main(int argc, char *argv[])
 
 }
 ```
+```c
+//-2的2
+//可在 `main` 函數中加上 `argc` 與 `argv` 兩個參數：
+//argc 為參數數量
+*(argv[1]+1)
+
+```
+
+測試結果 [[2023-10-11]]
+![[Pasted image 20231011085328.png]]
 ==函數的位址==
 
 C 的基本型別變數和陣列都有位址，因此都可以在 int、char、 float、 array上使用指標。
