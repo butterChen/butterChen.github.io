@@ -658,7 +658,7 @@ void main(int argc, char *argcv[])
 
 
 ![[Pasted image 20231004161807.png]]
-
+[[指標好深入]]
 ```c
 #include <stdio.h>
 
