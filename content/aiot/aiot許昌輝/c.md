@@ -713,12 +713,16 @@ void main(int argc, char *argv[])
 
 }
 ```
+[[2023-10-11]]
 ```c
 //-2的2
 //可在 `main` 函數中加上 `argc` 與 `argv` 兩個參數：
 //argc 為參數數量
 *(argv[1]+1)
-
+classtest0.exe hi -5 butter
+classtest0.exe 為 argv[0]
+-5 為 argv[1]
+butter 為 argv[2]
 ```
 
 測試結果 [[2023-10-11]]
