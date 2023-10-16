@@ -1,0 +1,1 @@
+https://blog.cavedu.com/2019/08/27/app-inventor-image-classifier/

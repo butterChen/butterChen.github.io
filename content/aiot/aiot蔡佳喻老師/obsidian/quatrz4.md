@@ -1,4 +1,10 @@
 [[github]][[Obsidian]]
+主頁
+https://quartz.jzhao.xyz/
+建立主機hosting
+https://quartz.jzhao.xyz/hosting
+建立自己的特性
+https://quartz.jzhao.xyz/advanced/creating-components
 step1
 	直接使用fork https://github.com/jackyzha0/quartz.git
 	到下面位置
