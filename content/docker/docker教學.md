@@ -1,3 +1,4 @@
+[[0.陳奶油toDolist]]
 [[docker]]
 [[aiot謝耀聰]]
 [[linux]]
@@ -37,3 +38,20 @@ docker-compose stop
 docker-compose down
 
 ```
+
+### 進入docker
+```cli
+docker ps
+```
+結果
+```
+CONTAINER ID   IMAGE           COMMAND                  CREATED        STATUS                          PORTS                         NAMES
+5284755f28b6   iot_data:112    "sh /x/appRun.sh"        21 hours ago   Restarting (1) 34 seconds ago                                 docker_iot_data_1
+50e3643e08b3   iot_www:112     "sh /x/appRun.sh"        21 hours ago   Restarting (1) 34 seconds ago                                 docker_iot_www_1
+122720f3dc2a   iot_mongo:112   "docker-entrypoint.s…"   21 hours ago   Up 2 hours                      172.17.0.1:21627->27017/tcp   docker_iot_mongo_1
+```
+
+```cli
+docker exec -it 122720f3dc2a bash
+```
+
