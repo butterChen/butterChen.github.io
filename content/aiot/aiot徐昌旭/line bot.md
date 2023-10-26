@@ -1,4 +1,5 @@
 [[0.陳奶油toDolist]]
+
 <font color = red>line bot 權杖 我是誰誰是我</font>
 
 ```
@@ -17,10 +18,5 @@ c語言 10.5自我參考機制
 gateway
 
 netmask
-
+[[aiot徐昌旭]]
 [[aiot林嘉琪]]
-
-------------------------------------
-大數據競賽
-https://imbd2023.thu.edu.tw/
-參考看看 有沒有機會去玩
