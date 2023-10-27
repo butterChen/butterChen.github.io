@@ -1,3 +1,4 @@
+
 - [ ] 需要檢查aws 目前消耗金額
 <font color=red>24</font>
 <font color=red>31.5 of $100 2023-10-04</font>
