@@ -4,6 +4,7 @@
 <font color=red>31.5 of $100 2023-10-04</font>
 <font color=red>36.6 of $100 2023-10-17</font>
 <font color=red>42.9 of $100 2023-10-24</font>
+<font color=red>48.3 of $100 2023-10-30</font>
 
 10塊錢一個月應該是夠用
 Current month costs
