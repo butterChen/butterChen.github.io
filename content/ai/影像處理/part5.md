@@ -1,0 +1,18 @@
+像素近鄰關係
+![[Pasted image 20231129090938.png]]
+![[Pasted image 20231129092747.png]]
+![[Pasted image 20231129092739.png]]
+![[Pasted image 20231129092732.png]]
+![[Pasted image 20231129092726.png]]
+![[Pasted image 20231129092718.png]]
+![[Pasted image 20231129092703.png]]
+![[Pasted image 20231129092629.png]]
+像素間的基本關係
+![[Pasted image 20231129092449.png]]
+![[Pasted image 20231129092350.png]]
+像素的量度
+歐基里德距離
+![[Pasted image 20231129092339.png]]
+d4距離
+d8距離
+![[Pasted image 20231129092325.png]]
