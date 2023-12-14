@@ -58,9 +58,6 @@ void connToServer(float *temp, float *humi){
     HTTPClient http;
 
     Serial.print("[HTTP] begin...\n"); 
-    //configure traged server and url
-    //if (http.begin(client, "http://44.211.255.29/iot/recieve_data.php?temp="+(String)sensor_temp+"&humi="+(String)sensor_humi)) {  // HTTP
-    //String connecstr = "http://192.168.42.125:9090/dht?Temperature="+(String)sensor_temp+"&Humidity="+(String)sensor_humi;
     String connecstr = "http://54.167.164.255:9090/dht?Temperature="+(String)sensor_temp+"&Humidity="+(String)sensor_humi;
     
     //http://3.82.216.100/
