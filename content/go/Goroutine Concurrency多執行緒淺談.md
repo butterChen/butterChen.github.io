@@ -1,6 +1,6 @@
-參考
-https://xiang753017.gitbook.io/zixiang-blog/golang/golang-goroutine-concurrency-duo-zhi-hang-xu-qian-tan
+[參考](https://xiang753017.gitbook.io/zixiang-blog/golang/golang/golang-go-mod-ru-men)
 
+<font color = red>在Golang多執行緒的世界中，最常用的就是共用變數、channel、 Select、sync.WaitGroup、sync.Lock等方式，比較進階的用法是Context。Context主要就是官方提供一個interface使得大家更方便的去操作，若使用者不想使用也是可以透過channel自行實作。</font>
 # [Golang] Goroutine Concurrency多執行緒淺談
 
 #golang #thread #sync.WaitGroup #sync.Lock #channel #context #concurrency

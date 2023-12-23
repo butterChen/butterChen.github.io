@@ -1,4 +1,4 @@
-[[aiot/aiot許昌輝/C語言]]
+[[C語言]]
 http://ccckmit.wikidot.com/as:inlinec
 
 https://hackmd.io/@sysprog/c-bitwise
