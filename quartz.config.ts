@@ -1,6 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import remarkBreaks from "remark-breaks"
 
 const config: QuartzConfig = {
   configuration: {
@@ -46,9 +45,6 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.MarkdownPlugins({
-        remarkPlugins: [remarkBreaks] // 2. 在這裡加入 remarkBreaks
-      }),
       Plugin.TableOfContents(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"], // you can add 'git' here for last modified from Git but this makes the build slower
