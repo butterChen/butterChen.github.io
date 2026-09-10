@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import remarkBreaks from "remark-breaks"
 
 const config: QuartzConfig = {
   configuration: {
