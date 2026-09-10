@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history for git info
       - uses: actions/setup-node@v3
@@ -35,6 +35,9 @@ jobs:
  
   deploy:
     needs: build
+      permissions:
+      pages: write      # 必須具權限
+      id-token: write   # 必須具權限
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -42,4 +45,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
